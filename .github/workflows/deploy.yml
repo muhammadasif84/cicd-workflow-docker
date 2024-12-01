@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v4
     - run: docker build . -t muhammadasif84/cicd-pipeline-github
     - name: Log in to DockerHub
-      run: echo "${{secrets.DOCKERHUB_SECRET}}" | docker login -u "${{secrets.DOCKERHUB_USERNAME}}" --password-stdin
+      run: echo "${{secrets.DOCKERHUB_SECRET}}" | docker login -u ${{secrets.DOCKERHUB_USERNAME}} --password-stdin
     - run: docker push muhammadasif84/cicd-pipeline-github:latest
 
 
