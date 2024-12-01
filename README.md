@@ -11,5 +11,6 @@
     <br/>
     ii- DOCKERHUB_USERNAME and paste your dockerhub username in description
 <br/>
-<h5>create new branch from main commit some changes, create pull request and It should passed all jobs mentioned in .github\workflows\deploy.yml
+<h4>NOTE:</h4>
+<h5>create new branch from main commit some changes, create pull request and It should passed all jobs mentioned in .github\workflows\deploy.yml</h5>
 
