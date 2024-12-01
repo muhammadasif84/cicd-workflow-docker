@@ -12,5 +12,5 @@
     ii- DOCKERHUB_USERNAME and paste your dockerhub username in description
 <br/>
 <h4>NOTE:</h4>
-<h4>Create new branch from main, commit and push some changes, create pull request and It should passed all jobs mentioned in .github\workflows\deploy.yml, for workflow status check Actions</h4>
+<h4>Create new branch from main, commit and push some changes, create pull request and It should passed all jobs mentioned in .github\workflows\deploy.yml, for workflow status check Actions. if all workflows passed in Actions then On your dockerhub profile it should be created new docker image inside repository</h4>
 
